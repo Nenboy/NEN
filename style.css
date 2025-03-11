@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.heading{
+    height:10vh;
+    background: white;
+    margin: 0;
+    padding: 0 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#left{
+   margin-left: 0;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.9em;
+   
+}
+#first{
+    display: flex;
+    gap: 1em;
+}
+#first a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.get{
+    background-color: blue;
+    border-radius: 10px;
+    padding:0.5em 1em ;
+    border: 0;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    justify-content:space-evenly ;
+}
+#h1{
+    display: flex;
+    flex-direction: column;
+    padding: 0 3em;
+    width: 45vw;
+}
+#h1 p{
+    width: 20vw;
+    text-align: justify;
+
+}
+#h1 button{
+    width: 20vw;
+    padding: 1em 0;
+    border-radius: 30px;
+    border: none;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    margin: 1em 0;
+}
+#h1 h1{ 
+    width: 20vw;
+
+}
+#h2 img{
+width: 40vw;
+margin-right: 3em;
+}
